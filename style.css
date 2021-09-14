@@ -1,0 +1,236 @@
+/* 
+ Couleur de fond : #f0f2f5
+ Couleur bleue : #1877f2
+ Couleur verte : #42b72a 
+ Couleur police footer : #737373
+ */
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body,
+  html {
+    font-family: Helvetica, sans-serif;
+    height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2000px;
+    height: 720px;
+    /* margin: 200px auto; */
+    background-color: #f0f2f5;
+  }
+  
+  .bloc-gauche {
+    position: absolute;
+    display: inline-block;
+    top: 200px;
+    left: 465px;
+    width: 50%;
+    height: 44%;
+  }
+  
+  .bloc-droite {
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    right: 560px;
+    height: 50%;
+    padding-left: 100px;
+    width: 25%;
+  }
+  
+  .titre {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 10px;
+  }
+  
+  .titre h1 {
+    color: #1877f2;
+    font-size: 360%;
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+  
+  .slogan {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    font-size: 170%;
+    letter-spacing: 0px;
+  }
+  
+  .formulaire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    font-size: 200%;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px rgba(177, 175, 175, 0.856);
+    padding: 15px 15px;
+    border-radius: 10px;
+    background-color: white;
+    height: 97%;
+    margin-bottom: 30px;
+  }
+  
+  .texte {
+    text-align: center;
+    font-size: 90%;
+  }
+  
+  /* FORMULAIRE */
+  
+  .inputContact input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 370px;
+    font-size: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* .inputContact:active {
+    border: 1px solid blue;
+  } */
+  
+  .password input {
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    width: 370px;
+    font-size: 50%;
+    margin-bottom: 15px;
+  }
+  
+  /* BOUTONS */
+  
+  .btn-btnConnexion .connexion {
+    padding: 13px;
+    border-radius: 5px;
+    width: 370px;
+    background: #1877f2;
+    border: none;
+    color: white;
+    font-size: 62%;
+    font-weight: bold;
+  }
+  
+  .btn-btnConnexion .connexion:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #0961d3;
+  }
+  
+  .btn-btnCompte .compte {
+    padding: 15px 2px;
+    border-radius: 5px;
+    width: 170px;
+    background: #42b72a;
+    border: none;
+    color: white;
+    font-size: 52%;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  .btn-btnCompte .compte:hover {
+    cursor: pointer;
+    transition: 1s;
+    background-color: #2ea316;
+  }
+  
+  /* lien */
+  
+  .mdpOubli a {
+    font-size: 45%;
+    text-decoration: none;
+    color: #1877f2;
+  }
+  
+  .mdpOubli a:hover {
+    text-decoration: underline;
+  }
+  
+  .mdpOubli {
+    padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey;
+  }
+  
+  .formFooter p a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .formFooter p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: white;
+    width: 1800px;
+    height: 300px;
+  }
+  
+  .footer-container {
+    position: relative;
+    width: 2000px;
+    padding: 20px;
+    font-size: 75%;
+  }
+  
+  .footer-container a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .footer-container a:hover {
+    text-decoration: underline;
+    color: grey;
+  }
+  
+  .footer-blocs {
+    position: absolute;
+    left: 460px;
+    /* NE FONCTIONNE PÄS COMME JE LE VEUX */
+    word-spacing: 10px;
+  }
+  
+  .PremièreLigne {
+    margin-top: 12px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+    width: 1000px;
+    margin-bottom: 10px;
+  }
+  
+  .secondeLigne,
+  .troisièmeLigne,
+  .quatrièmeLigne {
+    padding-bottom: 5px;
+    /* word-spacing: 15px; */
+  }
+  
+  .cinquièmeLigne {
+    padding-top: 20px;
+    font-size: 90%;
+    color: #1877f2;
+    word-spacing: 1px;
+  }
+  
