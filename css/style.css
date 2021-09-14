@@ -103,10 +103,6 @@ html {
   margin-bottom: 15px;
 }
 
-/* .inputContact:active {
-    border: 1px solid blue;
-  } */
-
 .password input {
   padding: 15px;
   border-radius: 5px;
@@ -208,8 +204,15 @@ footer {
 .footer-blocs {
   position: absolute;
   left: 460px;
-  /* NE FONCTIONNE PÄS COMME JE LE VEUX */
-  word-spacing: 10px;
+  word-spacing: 15px;
+}
+
+.wordSpacing6 {
+  word-spacing: 6px;
+}
+
+.noWordSpacing {
+  word-spacing: 0px;
 }
 
 .PremièreLigne {
